@@ -1,0 +1,13 @@
+sort1 uses: Bubble sort
+
+How do you know?: It performs the slowest on "randomXXXXX.txt" and "reversedXXXXX.txt", but performs the fastest on "sortedXXXX.txt".
+It especially outperforms with "sorted" sets compared to the "random" and "reversed" sets.
+
+sort2 uses: Merge sort
+
+How do you know?: On average the fastest sorting algorithm on "...50000.txt", and its time results are quite close and consistent with each other - not much difference between its upper and lower bounds.
+
+sort3 uses: Selection sort
+
+How do you know?: Its time results are grouped relatively close together across the different types of number sets and is consistently a specific slow pace compared to the other two sort methods.
+Performance doesn't seem to change much between "random", "reversed", or "sorted".
